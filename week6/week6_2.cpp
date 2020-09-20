@@ -40,7 +40,7 @@ int main(){
         printf("A");
         return 0;
     }
-    
+    else{
     while(x > 0){
         num[i] = x%26;
         x /= 26;
@@ -49,5 +49,7 @@ int main(){
     for (j = 0; j < i; j++)
     {
         printf("%c",convert(num[i-j-1]));
+    }
+        return 0;
     }
 }
