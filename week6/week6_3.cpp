@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main()
-{
-    int i, j, x;
-    scanf("%d", &x);
+
+int i,j,x,k,p;
+
+int butterfly(int x){
     for(i = 0; i < x; i++){
         for(j = 0; j < (2*x); j++){
             if(i >= j){
@@ -36,6 +36,18 @@ int main()
             }
         }
         printf("\n");
+    }
+    return 0;
+}
+
+
+int main()
+{
+    scanf("%d", &x);
+    scanf("%d",&p);
+    for (k = 0; k < p; k++)
+    {
+        butterfly(x);
     }
     return 0;
 }
