@@ -43,6 +43,7 @@ int main(){
         printf(" %s :",Stu[i].name);
         printf(" %d :",Stu[i].score);
         printf(" %c",Stu[i].garde);
+        printf("\n")
     }
     
     return 0;
