@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <vector>
+#include <time.h>
+#include <stdlib.h>
 using namespace std;
 struct student
 {
@@ -37,7 +39,7 @@ int main(){
     }
     sortscore();
     for (int i = 0; i <  Stu.size(); i++){
-        printf("id : %d ",Stu[i].id);
+        printf("%d : id : %d ",i+1,Stu[i].id);
 		printf("point : %d\n",Stu[i].point);
 	}
     return 0;
